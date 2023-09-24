@@ -13,6 +13,6 @@
   
 """
 
-from pSAR import roipac,ui,opt,br,jdutil,ts,ui_rect,\
-                 utm_conversion,utm_error,util,aps,lsq
+from pSAR import roipac,ui,opt,br,jdutil,ui_rect,\
+                 utm_conversion,utm_error,util
 #
