@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 #
-# -*- coding: utf-8 -*-
-"""
+#
+'''
 Created on Fri Nov 11 17:28:24 2022
 
 create time series
 #
 @author: wafeng
-"""
+'''
+#
 import pokada
 import pSAR
 import pSIMP
@@ -281,8 +282,14 @@ if len(sys.argv)<3:
                                    -trackinfo [T001 in default]
                                    -pixelsize [1 in default]
 
-        Since 2023/04/14, I start working with this version...
-        pSAR_ts_forwardSIM_2D.py will be replaced in future....
+        Since 2023/04/14, the script was developed to simulate surface deformation due to 
+        variable faulting behaviors in the elastic half space Earth model.
+
+        The code has been released along with the study below:
+        
+        Zhang, Z., Feng, W., Xu, X., & Samsonov, S. (2023). Performance of 
+        Common Scene Stacking Atmospheric Correction on Nonlinear InSAR 
+        Deformation Retrieval. Remote Sensing, 15(22), 5399.
 
         '''
     #
