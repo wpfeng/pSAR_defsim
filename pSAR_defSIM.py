@@ -467,8 +467,9 @@ if True:
     polys,depths = pSIMP.simp_corners(fpara)
     #
     # cfpara, an interseismic slipping fault
+    # edited by Wanpeng Feng, 2023/11/26, to make sure interseismic model can be modified based on inputs...
     #
-    cfpara = [polys[2:4,0].mean(),polys[2:4,1].mean(),fpara[2],fpara[3],depths[2],10,50,0,0,0]
+    cfpara = [polys[2:4,0].mean(),polys[2:4,1].mean(),fpara[2],fpara[3],depths[2],fpara[5],fpara[6],0,0,0]
     #
     fparas = np.zeros([2,10])
     fparas[0,:] = fpara
