@@ -14,3 +14,4 @@ numpy                     1.26.0          py311h64a7726_0    conda-forge
 python                    3.11.6          hab00c5b_0_cpython    conda-forge
 scipy                     1.11.3          py311h64a7726_1    conda-forge
 shapely                   2.0.2                    pypi_0    pypi
+namba                     0.58.1          py311h96b013e_0    conda-forge
